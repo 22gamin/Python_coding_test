@@ -1,6 +1,6 @@
 ## 숫자 카드 게임
 
-```
+```python
 #행의 개수 N과 열의 개수 M이 입력
 N,M=map(int,input().split())
 
@@ -27,7 +27,7 @@ print(big)
 ```
 
 -답안 예시
-```
+```python
 #N, M을 공백으로 구분하여 입력받기
 n,m=map(int,input().split())
 
@@ -50,7 +50,7 @@ print(result)
 
 
 ## 1이 될 때까지
-```
+```python
 # 어떤 수 n과 나누어지는 수 k 입력
 n,k =map(int,input().split())
 
@@ -76,7 +76,7 @@ print(count)
 
 - 답안 예시
 
-```
+```python
 # n,k를 공백으로 구분하여 입력받기
 n,k = map(int,input().split())
 result=0
