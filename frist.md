@@ -1,6 +1,6 @@
 -선택정렬과 기본 정렬 라이브러리의 수행시간비교
 
-```
+```python
 from random import randint
 import time
 
@@ -41,7 +41,7 @@ print("기본 정렬 라이브러리 성능 측정: ",end_time-start_time) #수�
 # 그리디알고리즘
 - 큰 수의 법칙
 
-```
+```python
 #N,M,K입력
 N,M,K= map(int,input().split())
 
@@ -86,7 +86,7 @@ M의 크기가 100억 이상 커질 경우, 시간 초과 판정 안 받는 코�
 
 큰 수가 더해지는 횟수를 구해서 넣기
 큰 수가 더해지는 횟수: int(M/(K+1))*K+M%(K+1)
-```
+```python
 #N,M,K를 공백으로 구분하여 입력받기
 N,M,K = map(int,input().split())
 #N개의 수를 공백으로 구분하여 입력받기
